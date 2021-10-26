@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2021, Dave Cramer
+ * See the LICENSE file in the project root for more information.
+ */
+
 package org.postgresql.model;
 
 import javax.persistence.Entity;
