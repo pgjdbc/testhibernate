@@ -11,6 +11,6 @@ import java.sql.Types;
 
 public class MyDialect extends PostgreSQL10Dialect {
     public MyDialect() {
-        this.registerColumnType(Types.BLOB, "lo");
+        this.registerColumnType(Types.BLOB, "public.lo");
     }
 }
